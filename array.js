@@ -26,3 +26,12 @@ for(let i = 0; i < arr.length; i++) {
     console.log(arr[i]+''+arr[arr.length-1]);
     }
 }
+
+// expected output 
+
+/* 92
+   62
+   22
+   72
+   22 
+*/
