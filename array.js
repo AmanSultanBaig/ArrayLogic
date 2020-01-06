@@ -12,3 +12,17 @@ for(let i = 0; i < arr.length; i++) {
     console.log(arr[i]+''+arr[j])
   }
 }
+
+
+// another way to do this with different output 
+let arr = [9,6,2,7,2];
+// to get one index upper then current
+let nextIndex;
+for(let i = 0; i < arr.length; i++) {
+    nextIndex = i + 1;
+    if(arr.length-1 == 'undefined'){
+    console.log(arr[i]+''+arr[nextIndex]);
+    }else{
+    console.log(arr[i]+''+arr[arr.length-1]);
+    }
+}
